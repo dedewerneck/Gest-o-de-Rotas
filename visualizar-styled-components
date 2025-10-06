@@ -1,0 +1,3949 @@
+import React from "react";
+import styled from "styled-components";
+
+const StyledGestoderotasspan = styled.span`
+  color: #04AF9E;
+  font-size: 36px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 40px;
+  word-wrap: break-word;
+`;
+
+const Styled1045postoguanhesspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector = styled.div`
+  width: 8px;
+  height: 4px;
+  left: 4px;
+  top: 6px;
+  position: absolute;
+  outline: 1.33px #717182 solid;
+  outline-offset: -0.67px;
+`;
+
+const Styled08102025span = styled.span`
+  color: #717182;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector01 = styled.div`
+  width: 8px;
+  height: 4px;
+  left: 4px;
+  top: 6px;
+  position: absolute;
+  outline: 1.33px #717182 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVisualizarspan = styled.span`
+  color: #04AF9E;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledImprimirspan = styled.span`
+  color: #6A7282;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledRotasspan = styled.span`
+  color: #04AF9E;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 30px;
+  word-wrap: break-word;
+`;
+
+const StyledVector02 = styled.div`
+  width: 13.33px;
+  height: 12.67px;
+  left: 1.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #04AF9E solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector03 = styled.div`
+  width: 9.33px;
+  height: 6.42px;
+  left: 2.33px;
+  top: 3.50px;
+  position: absolute;
+  outline: 1.17px white solid;
+  outline-offset: -0.58px;
+`;
+
+const Styled2254bspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledAbertaspan = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton05 = styled.button`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const Styled2304bspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledFechadaeemexecuospan = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton06 = styled.button`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const Styled2258bspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledCanceladaspan = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton07 = styled.button`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const Styled2254b01span = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledInativaspan = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton08 = styled.button`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const Styled2267cspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledAberta01span = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton09 = styled.button`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const Styled2289aspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledFechadaeemexecuo01span = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton10 = styled.button`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const Styled2301dspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledCancelada01span = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton11 = styled.button`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const Styled2315espan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledInativa01span = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton12 = styled.button`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const Styled2327fspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledAberta02span = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton13 = styled.button`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const Styled2340gspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledFechadaeemexecuo02span = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledDetalhesdarotaspan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled2254bfspan = styled.span`
+  color: #04AF9E;
+  font-size: 24px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 32px;
+  word-wrap: break-word;
+`;
+
+const StyledInutilizarrotaspan = styled.span`
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledDatadecadastrospan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled05112024165313span = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledInciodevignciaspan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled06112024span = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledFimdevignciaspan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledSpan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledHistricoatualspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledHorriodesadaspan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled0357span = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledHorriodechegadaspan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled0224span = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledDiarotaspan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledMparspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledVolumetotalspan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled26807span = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledDistnciatotaldarotaspan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled402span = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledRlspan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled01113span = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledLtskmspan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled6668span = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledCustototaldarotaspan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled298387span = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledPontosdeparadaspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledIdentificadorspan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledNomedaparadaprodutorspan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVolspan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledKmspan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledAtividadespan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled1span = styled.span`
+  color: #0A0A0A;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledJ995span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector04 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #99A1AF solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector05 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #99A1AF solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledJ0950024garagemviaspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled0span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled001span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledColetaspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled2span = styled.span`
+  color: #0A0A0A;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledJ531span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector06 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #99A1AF solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector07 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #99A1AF solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledJ5310077medeirosspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled1730span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled101span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledDesengatespan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled3span = styled.span`
+  color: #0A0A0A;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const Styled223500560span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector08 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #99A1AF solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector09 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #99A1AF solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledJuliosergiodevasconcelosspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled10span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled25span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledEsperaspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled4span = styled.span`
+  color: #0A0A0A;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const Styled223500941span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector10 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #99A1AF solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector11 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #99A1AF solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledDaltoncamposabreuspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled6500span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled26span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledColeta01span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled5span = styled.span`
+  color: #0A0A0A;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const Styled223501766span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector12 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #99A1AF solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector13 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #99A1AF solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledIrildavaladaresdeabreuspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled3379span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled37span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledColeta02span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled6span = styled.span`
+  color: #0A0A0A;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const Styled223502209span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector14 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #99A1AF solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector15 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #99A1AF solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledJordanacristinachavesspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled002span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled52span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledTransvasospan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled7span = styled.span`
+  color: #0A0A0A;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const Styled223501680span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector16 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #99A1AF solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector17 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #99A1AF solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledMuciojosemacielspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled200span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled78span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledColeta03span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled8span = styled.span`
+  color: #0A0A0A;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const Styled223502017span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector18 = styled.div`
+  width: 9.33px;
+  height: 4px;
+  left: 3.33px;
+  top: 10px;
+  position: absolute;
+  outline: 1.33px #99A1AF solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector19 = styled.div`
+  width: 5.33px;
+  height: 5.33px;
+  left: 5.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #99A1AF solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledMauriciowmacieleirmaosspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled5000span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled84span = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledPausaspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledCcprcoonectaspan = styled.span`
+  color: white;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 28px;
+  word-wrap: break-word;
+`;
+
+const StyledJoosilvaspan = styled.span`
+  color: white;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 28px;
+  word-wrap: break-word;
+`;
+
+const StyledVector23 = styled.div`
+  width: 5px;
+  height: 10px;
+  left: 16px;
+  top: 7px;
+  position: absolute;
+  outline: 2px white solid;
+  outline-offset: -1px;
+`;
+
+const StyledVector25 = styled.div`
+  width: 6px;
+  height: 18px;
+  left: 3px;
+  top: 3px;
+  position: absolute;
+  outline: 2px white solid;
+  outline-offset: -1px;
+`;
+
+const StyledHeading2 = styled.div`
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+`;
+
+const StyledPrimitivespan = styled.div`
+  width: 162.25px;
+  height: 20px;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledPrimitivespan01 = styled.div`
+  width: 71.30px;
+  height: 20px;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledPrimitivebutton02 = styled.button`
+  flex: 1 1 0;
+  height: 41px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: white;
+  outline: 1px rgba(0, 0, 0, 0) solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  display: flex;
+`;
+
+const StyledPrimitivebutton03 = styled.button`
+  flex: 1 1 0;
+  height: 41px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  outline: 1px rgba(0, 0, 0, 0) solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  display: flex;
+`;
+
+const StyledHeading3 = styled.div`
+  width: 51.67px;
+  height: 30px;
+  position: relative;
+`;
+
+const StyledText = styled.div`
+  width: 46.48px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText01 = styled.div`
+  width: 58.52px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #04AF9E;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText02 = styled.div`
+  width: 46.48px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText03 = styled.div`
+  width: 162.92px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #018670;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText04 = styled.div`
+  width: 46.48px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText05 = styled.div`
+  width: 85.09px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #FB2C36;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText06 = styled.div`
+  width: 46.48px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText07 = styled.div`
+  width: 61.14px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #99A1AF;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText08 = styled.div`
+  width: 46.83px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText09 = styled.div`
+  width: 58.52px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #04AF9E;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText10 = styled.div`
+  width: 46.98px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText11 = styled.div`
+  width: 162.92px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #018670;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText12 = styled.div`
+  width: 46.83px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText13 = styled.div`
+  width: 85.09px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #FB2C36;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText14 = styled.div`
+  width: 45.42px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText15 = styled.div`
+  width: 61.14px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #99A1AF;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText16 = styled.div`
+  width: 45.19px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText17 = styled.div`
+  width: 58.52px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #04AF9E;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText18 = styled.div`
+  width: 47.28px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText19 = styled.div`
+  width: 162.92px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #018670;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledHeading301 = styled.div`
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledHeading201 = styled.div`
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+`;
+
+const StyledButton01 = styled.button`
+  width: 118.91px;
+  height: 36px;
+  position: relative;
+  background: #04AF9E;
+  border-radius: 8px;
+`;
+
+const StyledParagraph = styled.div`
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledParagraph01 = styled.div`
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledParagraph02 = styled.div`
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledParagraph03 = styled.div`
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledParagraph04 = styled.div`
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledParagraph05 = styled.div`
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledHeading302 = styled.div`
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledParagraph06 = styled.div`
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledParagraph07 = styled.div`
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledParagraph08 = styled.div`
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledParagraph09 = styled.div`
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledParagraph10 = styled.div`
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledParagraph11 = styled.div`
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledParagraph12 = styled.div`
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledParagraph13 = styled.div`
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledParagraph14 = styled.div`
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledParagraph15 = styled.div`
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledParagraph16 = styled.div`
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledParagraph17 = styled.div`
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledParagraph18 = styled.div`
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledParagraph19 = styled.div`
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledParagraph20 = styled.div`
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledParagraph21 = styled.div`
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledHeading303 = styled.div`
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledHeaderCell = styled.div`
+  width: 312.94px;
+  height: 44.50px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledHeaderCell01 = styled.div`
+  width: 617.22px;
+  height: 44.50px;
+  left: 312.94px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledHeaderCell02 = styled.div`
+  width: 149.11px;
+  height: 44.50px;
+  left: 930.16px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledHeaderCell03 = styled.div`
+  width: 124.77px;
+  height: 44.50px;
+  left: 1079.27px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledHeaderCell04 = styled.div`
+  width: 259.97px;
+  height: 44.50px;
+  left: 1204.03px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledText20 = styled.div`
+  width: 4.83px;
+  height: 16px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText21 = styled.div`
+  width: 31.34px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText22 = styled.div`
+  width: 169.81px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell02 = styled.div`
+  width: 149.11px;
+  height: 49px;
+  left: 930.16px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell03 = styled.div`
+  width: 124.77px;
+  height: 49px;
+  left: 1079.27px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell04 = styled.div`
+  width: 259.97px;
+  height: 49px;
+  left: 1204.03px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledText23 = styled.div`
+  width: 6.67px;
+  height: 16px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText24 = styled.div`
+  width: 31.34px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText25 = styled.div`
+  width: 143.14px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell07 = styled.div`
+  width: 149.11px;
+  height: 49px;
+  left: 930.16px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell08 = styled.div`
+  width: 124.77px;
+  height: 49px;
+  left: 1079.27px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell09 = styled.div`
+  width: 259.97px;
+  height: 49px;
+  left: 1204.03px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledText26 = styled.div`
+  width: 6.67px;
+  height: 16px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText27 = styled.div`
+  width: 70.83px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText28 = styled.div`
+  width: 209.91px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell12 = styled.div`
+  width: 149.11px;
+  height: 49px;
+  left: 930.16px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell13 = styled.div`
+  width: 124.77px;
+  height: 49px;
+  left: 1079.27px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell14 = styled.div`
+  width: 259.97px;
+  height: 49px;
+  left: 1204.03px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledText29 = styled.div`
+  width: 6.92px;
+  height: 16px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText30 = styled.div`
+  width: 70.83px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText31 = styled.div`
+  width: 159.33px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell17 = styled.div`
+  width: 149.11px;
+  height: 49px;
+  left: 930.16px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell18 = styled.div`
+  width: 124.77px;
+  height: 49px;
+  left: 1079.27px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell19 = styled.div`
+  width: 259.97px;
+  height: 49px;
+  left: 1204.03px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledText32 = styled.div`
+  width: 6.67px;
+  height: 16px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText33 = styled.div`
+  width: 70.83px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText34 = styled.div`
+  width: 190.45px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell22 = styled.div`
+  width: 149.11px;
+  height: 49px;
+  left: 930.16px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell23 = styled.div`
+  width: 124.77px;
+  height: 49px;
+  left: 1079.27px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell24 = styled.div`
+  width: 259.97px;
+  height: 49px;
+  left: 1204.03px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledText35 = styled.div`
+  width: 6.70px;
+  height: 16px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText36 = styled.div`
+  width: 70.83px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText37 = styled.div`
+  width: 184.56px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell27 = styled.div`
+  width: 149.11px;
+  height: 49px;
+  left: 930.16px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell28 = styled.div`
+  width: 124.77px;
+  height: 49px;
+  left: 1079.27px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell29 = styled.div`
+  width: 259.97px;
+  height: 49px;
+  left: 1204.03px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledText38 = styled.div`
+  width: 6.44px;
+  height: 16px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText39 = styled.div`
+  width: 70.83px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText40 = styled.div`
+  width: 134.25px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell32 = styled.div`
+  width: 149.11px;
+  height: 49px;
+  left: 930.16px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell33 = styled.div`
+  width: 124.77px;
+  height: 49px;
+  left: 1079.27px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell34 = styled.div`
+  width: 259.97px;
+  height: 49px;
+  left: 1204.03px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledText41 = styled.div`
+  width: 6.67px;
+  height: 16px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText42 = styled.div`
+  width: 70.83px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledText43 = styled.div`
+  width: 201.31px;
+  height: 20px;
+  position: relative;
+`;
+
+const StyledTableCell37 = styled.div`
+  width: 149.11px;
+  height: 49px;
+  left: 930.16px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell38 = styled.div`
+  width: 124.77px;
+  height: 49px;
+  left: 1079.27px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell39 = styled.div`
+  width: 259.97px;
+  height: 49px;
+  left: 1204.03px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledHeading1 = styled.div`
+  flex: 1 1 0;
+  height: 28px;
+  position: relative;
+`;
+
+const StyledText44 = styled.div`
+  flex: 1 1 0;
+  height: 28px;
+  position: relative;
+`;
+
+const StyledIcon = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  opacity: 0.50;
+  overflow: hidden;
+`;
+
+const StyledIcon01 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  opacity: 0.50;
+  overflow: hidden;
+`;
+
+const StyledIcon02 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon03 = styled.div`
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon04 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon05 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon06 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon07 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon08 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon09 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon10 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon11 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon12 = styled.div`
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon13 = styled.div`
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledContainer = styled.div`
+  width: 1594px;
+  height: 118px;
+  padding-top: 32px;
+  padding-left: 40px;
+  padding-right: 40px;
+  left: 0px;
+  top: 64px;
+  position: absolute;
+  background: #F5F5F5;
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.10);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledTabList = styled.div`
+  width: 1514px;
+  height: 43px;
+  border-bottom: 1px #E5E7EB solid;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledContainer09 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  border-radius: 4px;
+  outline: 1px #E5E7EB solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer10 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  border-radius: 4px;
+  outline: 1px #E5E7EB solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer11 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  border-radius: 4px;
+  outline: 1px #E5E7EB solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer12 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  border-radius: 4px;
+  outline: 1px #E5E7EB solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer13 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  border-radius: 4px;
+  outline: 1px #E5E7EB solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer14 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  border-radius: 4px;
+  outline: 1px #E5E7EB solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer15 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  border-radius: 4px;
+  outline: 1px #E5E7EB solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer16 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  border-radius: 4px;
+  outline: 1px #E5E7EB solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer17 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  border-radius: 4px;
+  outline: 1px #E5E7EB solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer20 = styled.div`
+  width: 105.84px;
+  height: 56px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+`;
+
+const StyledContainer22 = styled.div`
+  width: 331.48px;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+`;
+
+const StyledContainer23 = styled.div`
+  width: 331.50px;
+  height: 48px;
+  left: 363.48px;
+  top: 0px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+`;
+
+const StyledContainer24 = styled.div`
+  width: 331.48px;
+  height: 48px;
+  left: 0px;
+  top: 80px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+`;
+
+const StyledContainer28 = styled.div`
+  align-self: stretch;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+`;
+
+const StyledContainer29 = styled.div`
+  align-self: stretch;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+`;
+
+const StyledContainer30 = styled.div`
+  align-self: stretch;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+`;
+
+const StyledContainer31 = styled.div`
+  align-self: stretch;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+`;
+
+const StyledContainer32 = styled.div`
+  align-self: stretch;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+`;
+
+const StyledContainer33 = styled.div`
+  align-self: stretch;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+`;
+
+const StyledContainer34 = styled.div`
+  align-self: stretch;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+`;
+
+const StyledContainer35 = styled.div`
+  align-self: stretch;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  display: inline-flex;
+`;
+
+const StyledTableRow = styled.div`
+  width: 1464px;
+  height: 44.50px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-bottom: 1px #E5E7EB solid;
+`;
+
+const StyledContainer38 = styled.div`
+  width: 24px;
+  height: 24px;
+  padding-right: 0.02px;
+  background: #E5E7EB;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledContainer41 = styled.div`
+  width: 24px;
+  height: 24px;
+  padding-right: 0.02px;
+  background: #E5E7EB;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledContainer44 = styled.div`
+  width: 24px;
+  height: 24px;
+  padding-right: 0.02px;
+  background: #E5E7EB;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledContainer47 = styled.div`
+  width: 24px;
+  height: 24px;
+  padding-right: 0.02px;
+  background: #E5E7EB;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledContainer50 = styled.div`
+  width: 24px;
+  height: 24px;
+  padding-right: 0.02px;
+  background: #E5E7EB;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledContainer53 = styled.div`
+  width: 24px;
+  height: 24px;
+  padding-right: 0.02px;
+  background: #E5E7EB;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledContainer56 = styled.div`
+  width: 24px;
+  height: 24px;
+  background: #E5E7EB;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledContainer59 = styled.div`
+  width: 24px;
+  height: 24px;
+  padding-right: 0.02px;
+  background: #E5E7EB;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledPrimitivebutton = styled.button`
+  align-self: stretch;
+  height: 36px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: white;
+  border-radius: 4px;
+  outline: 1px #99A1AF solid;
+  outline-offset: -1px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivebutton01 = styled.button`
+  align-self: stretch;
+  height: 36px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: white;
+  border-radius: 4px;
+  outline: 1px #99A1AF solid;
+  outline-offset: -1px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledButton = styled.button`
+  width: 36px;
+  height: 32px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledPrimitivespan02 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledContainer39 = styled.div`
+  width: 584.22px;
+  height: 20px;
+  left: 16.50px;
+  top: 14.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer42 = styled.div`
+  width: 584.22px;
+  height: 20px;
+  left: 16.50px;
+  top: 14.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer45 = styled.div`
+  width: 584.22px;
+  height: 20px;
+  left: 16.50px;
+  top: 14.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer48 = styled.div`
+  width: 584.22px;
+  height: 20px;
+  left: 16.50px;
+  top: 14.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer51 = styled.div`
+  width: 584.22px;
+  height: 20px;
+  left: 16.50px;
+  top: 14.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer54 = styled.div`
+  width: 584.22px;
+  height: 20px;
+  left: 16.50px;
+  top: 14.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer57 = styled.div`
+  width: 584.22px;
+  height: 20px;
+  left: 16.50px;
+  top: 14.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer60 = styled.div`
+  width: 584.22px;
+  height: 20px;
+  left: 16.50px;
+  top: 14.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer61 = styled.div`
+  width: 183.86px;
+  height: 28px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  display: flex;
+`;
+
+const StyledContainer62 = styled.div`
+  width: 123.19px;
+  height: 28px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  display: flex;
+`;
+
+const StyledContainer19 = styled.div`
+  align-self: stretch;
+  height: 56px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledContainer21 = styled.div`
+  align-self: stretch;
+  height: 128px;
+  position: relative;
+`;
+
+const StyledContainer27 = styled.div`
+  align-self: stretch;
+  height: 120px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledTableHeader = styled.div`
+  width: 1464px;
+  height: 44.50px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledContainer37 = styled.div`
+  width: 280.44px;
+  height: 24px;
+  left: 16px;
+  top: 12.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer40 = styled.div`
+  width: 280.44px;
+  height: 24px;
+  left: 16px;
+  top: 12.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer43 = styled.div`
+  width: 280.44px;
+  height: 24px;
+  left: 16px;
+  top: 12.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer46 = styled.div`
+  width: 280.44px;
+  height: 24px;
+  left: 16px;
+  top: 12.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer49 = styled.div`
+  width: 280.44px;
+  height: 24px;
+  left: 16px;
+  top: 12.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer52 = styled.div`
+  width: 280.44px;
+  height: 24px;
+  left: 16px;
+  top: 12.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer55 = styled.div`
+  width: 280.44px;
+  height: 24px;
+  left: 16px;
+  top: 12.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer58 = styled.div`
+  width: 280.44px;
+  height: 24px;
+  left: 16px;
+  top: 12.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer02 = styled.div`
+  width: 749px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledContainer03 = styled.div`
+  width: 749px;
+  height: 36px;
+  left: 765px;
+  top: 0px;
+  position: absolute;
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledContainer06 = styled.div`
+  width: 743.02px;
+  height: 65px;
+  padding-left: 16px;
+  padding-right: 16px;
+  left: 1px;
+  top: 1px;
+  position: absolute;
+  border-bottom: 1px #E5E7EB solid;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivebutton04 = styled.button`
+  width: 16px;
+  height: 16px;
+  padding: 1px;
+  background: #030213;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  outline: 1px #030213 solid;
+  outline-offset: -1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledTableCell01 = styled.div`
+  width: 617.22px;
+  height: 49px;
+  left: 312.94px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell06 = styled.div`
+  width: 617.22px;
+  height: 49px;
+  left: 312.94px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell11 = styled.div`
+  width: 617.22px;
+  height: 49px;
+  left: 312.94px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell16 = styled.div`
+  width: 617.22px;
+  height: 49px;
+  left: 312.94px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell21 = styled.div`
+  width: 617.22px;
+  height: 49px;
+  left: 312.94px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell26 = styled.div`
+  width: 617.22px;
+  height: 49px;
+  left: 312.94px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell31 = styled.div`
+  width: 617.22px;
+  height: 49px;
+  left: 312.94px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell36 = styled.div`
+  width: 617.22px;
+  height: 49px;
+  left: 312.94px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledNavbar = styled.div`
+  width: 1594px;
+  height: 64px;
+  padding-left: 24px;
+  padding-right: 24px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #04AF9E;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledContainer18 = styled.div`
+  width: 744.98px;
+  height: 250px;
+  padding-top: 25px;
+  padding-bottom: 1px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: white;
+  border-radius: 4px;
+  outline: 1px #D1D5DC solid;
+  outline-offset: -1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  display: inline-flex;
+`;
+
+const StyledContainer26 = styled.div`
+  align-self: stretch;
+  height: 210px;
+  padding-top: 25px;
+  padding-bottom: 1px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: white;
+  border-radius: 4px;
+  outline: 1px #D1D5DC solid;
+  outline-offset: -1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  display: flex;
+`;
+
+const StyledTableCell = styled.div`
+  width: 312.94px;
+  height: 49px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell05 = styled.div`
+  width: 312.94px;
+  height: 49px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell10 = styled.div`
+  width: 312.94px;
+  height: 49px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell15 = styled.div`
+  width: 312.94px;
+  height: 49px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell20 = styled.div`
+  width: 312.94px;
+  height: 49px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell25 = styled.div`
+  width: 312.94px;
+  height: 49px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell30 = styled.div`
+  width: 312.94px;
+  height: 49px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledTableCell35 = styled.div`
+  width: 312.94px;
+  height: 49px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-right: 1px #E5E7EB solid;
+`;
+
+const StyledContainer01 = styled.div`
+  align-self: stretch;
+  height: 36px;
+  position: relative;
+`;
+
+const StyledContainer08 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  background: #EFF6FF;
+  border-radius: 4px;
+  outline: 1px #04AF9E solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledTableRow01 = styled.div`
+  width: 1464px;
+  height: 49px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-bottom: 1px #F3F4F6 solid;
+`;
+
+const StyledTableRow02 = styled.div`
+  width: 1464px;
+  height: 49px;
+  left: 0px;
+  top: 49px;
+  position: absolute;
+  border-bottom: 1px #F3F4F6 solid;
+`;
+
+const StyledTableRow03 = styled.div`
+  width: 1464px;
+  height: 49px;
+  left: 0px;
+  top: 98px;
+  position: absolute;
+  border-bottom: 1px #F3F4F6 solid;
+`;
+
+const StyledTableRow04 = styled.div`
+  width: 1464px;
+  height: 49px;
+  left: 0px;
+  top: 147px;
+  position: absolute;
+  border-bottom: 1px #F3F4F6 solid;
+`;
+
+const StyledTableRow05 = styled.div`
+  width: 1464px;
+  height: 49px;
+  left: 0px;
+  top: 196px;
+  position: absolute;
+  border-bottom: 1px #F3F4F6 solid;
+`;
+
+const StyledTableRow06 = styled.div`
+  width: 1464px;
+  height: 49px;
+  left: 0px;
+  top: 245px;
+  position: absolute;
+  border-bottom: 1px #F3F4F6 solid;
+`;
+
+const StyledTableRow07 = styled.div`
+  width: 1464px;
+  height: 49px;
+  left: 0px;
+  top: 294px;
+  position: absolute;
+  border-bottom: 1px #F3F4F6 solid;
+`;
+
+const StyledTableRow08 = styled.div`
+  width: 1464px;
+  height: 49px;
+  left: 0px;
+  top: 343px;
+  position: absolute;
+  border-bottom: 1px #F3F4F6 solid;
+`;
+
+const StyledContainer07 = styled.div`
+  width: 711.02px;
+  height: 384px;
+  padding-right: 15px;
+  left: 17px;
+  top: 82px;
+  position: absolute;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledTableBody = styled.div`
+  width: 1464px;
+  height: 392px;
+  left: 0px;
+  top: 44.50px;
+  position: absolute;
+`;
+
+const StyledContainer05 = styled.div`
+  flex: 1 1 0;
+  height: 483px;
+  position: relative;
+  background: white;
+  border-radius: 4px;
+  outline: 1px #D1D5DC solid;
+  outline-offset: -1px;
+`;
+
+const StyledTable = styled.div`
+  align-self: stretch;
+  height: 437px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledContainer04 = styled.div`
+  align-self: stretch;
+  height: 483px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+`;
+
+const StyledContainer36 = styled.div`
+  align-self: stretch;
+  height: 527px;
+  padding-top: 25px;
+  padding-bottom: 1px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: white;
+  border-radius: 4px;
+  outline: 1px #D1D5DC solid;
+  outline-offset: -1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  display: flex;
+`;
+
+const StyledContainer25 = styled.div`
+  align-self: stretch;
+  height: 761px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: flex;
+`;
+
+const StyledFilterSection01 = styled.div`
+  width: 1514px;
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: flex;
+`;
+
+const StyledPrimitivediv = styled.div`
+  align-self: stretch;
+  height: 1343px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+  display: flex;
+`;
+
+const StyledFilterSection = styled.div`
+  width: 1514px;
+  height: 1403px;
+  left: 40px;
+  top: 222px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+`;
+
+const StyledMainContent = styled.div`
+  width: 1594px;
+  height: 1625px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: white;
+`;
+
+const StyledRotasvisualizar = styled.div`
+  width: 1594px;
+  height: 1625px;
+  position: relative;
+  background: white;
+`;
+
+export const RotasVisualizar = () => {
+  return (
+    <StyledRotasvisualizar>
+      <StyledMainContent>
+        <StyledContainer>
+          <StyledHeading2>
+            <StyledGestodeRotas>Gestão de Rotas</StyledGestodeRotas>
+          </StyledHeading2>
+        </StyledContainer>
+        <StyledFilterSection>
+          <StyledContainer01>
+            <StyledContainer02>
+              <StyledPrimitivebutton>
+                <StyledPrimitivespan>
+                  <Styled1045POSTOGUANHES>1045 - POSTO GUANHÃES</Styled1045POSTOGUANHES>
+                </StyledPrimitivespan>
+                <StyledIcon>
+                  <StyledVector />
+                </StyledIcon>
+              </StyledPrimitivebutton>
+            </StyledContainer02>
+            <StyledContainer03>
+              <StyledPrimitivebutton01>
+                <StyledPrimitivespan01>
+                  <Styled08102025>08/10/2025</Styled08102025>
+                </StyledPrimitivespan01>
+                <StyledIcon01>
+                  <StyledVector01 />
+                </StyledIcon01>
+              </StyledPrimitivebutton01>
+            </StyledContainer03>
+          </StyledContainer01>
+          <StyledPrimitivediv>
+            <StyledTabList>
+              <StyledPrimitivebutton02>
+                <StyledVisualizar>Visualizar</StyledVisualizar>
+              </StyledPrimitivebutton02>
+              <StyledPrimitivebutton03>
+                <StyledImprimir>Imprimir</StyledImprimir>
+              </StyledPrimitivebutton03>
+            </StyledTabList>
+            <StyledFilterSection01>
+              <StyledContainer04>
+                <StyledContainer05>
+                  <StyledContainer06>
+                    <StyledHeading3>
+                      <StyledRotas>Rotas</StyledRotas>
+                    </StyledHeading3>
+                    <StyledButton>
+                      <StyledIcon02>
+                        <StyledVector02 />
+                      </StyledIcon02>
+                    </StyledButton>
+                  </StyledContainer06>
+                  <StyledContainer07>
+                    <StyledContainer08>
+                      <StyledPrimitivebutton04>
+                        <StyledPrimitivespan02>
+                          <StyledIcon03>
+                            <StyledVector03 />
+                          </StyledIcon03>
+                        </StyledPrimitivespan02>
+                      </StyledPrimitivebutton04>
+                      <StyledText>
+                        <Styled2254B>2254B</Styled2254B>
+                      </StyledText>
+                      <StyledText01>
+                        <StyledABERTA>ABERTA</StyledABERTA>
+                      </StyledText01>
+                    </StyledContainer08>
+                    <StyledContainer09>
+                      <StyledPrimitivebutton05 />
+                      <StyledText02>
+                        <Styled2304B>2304B</Styled2304B>
+                      </StyledText02>
+                      <StyledText03>
+                        <StyledFECHADAEEMEXECUO>FECHADA E EM EXECUÇÃO</StyledFECHADAEEMEXECUO>
+                      </StyledText03>
+                    </StyledContainer09>
+                    <StyledContainer10>
+                      <StyledPrimitivebutton06 />
+                      <StyledText04>
+                        <Styled2258B>2258B</Styled2258B>
+                      </StyledText04>
+                      <StyledText05>
+                        <StyledCANCELADA>CANCELADA</StyledCANCELADA>
+                      </StyledText05>
+                    </StyledContainer10>
+                    <StyledContainer11>
+                      <StyledPrimitivebutton07 />
+                      <StyledText06>
+                        <Styled2254B01>2254B</Styled2254B01>
+                      </StyledText06>
+                      <StyledText07>
+                        <StyledINATIVA>INATIVA</StyledINATIVA>
+                      </StyledText07>
+                    </StyledContainer11>
+                    <StyledContainer12>
+                      <StyledPrimitivebutton08 />
+                      <StyledText08>
+                        <Styled2267C>2267C</Styled2267C>
+                      </StyledText08>
+                      <StyledText09>
+                        <StyledABERTA01>ABERTA</StyledABERTA01>
+                      </StyledText09>
+                    </StyledContainer12>
+                    <StyledContainer13>
+                      <StyledPrimitivebutton09 />
+                      <StyledText10>
+                        <Styled2289A>2289A</Styled2289A>
+                      </StyledText10>
+                      <StyledText11>
+                        <StyledFECHADAEEMEXECUO01>FECHADA E EM EXECUÇÃO</StyledFECHADAEEMEXECUO01>
+                      </StyledText11>
+                    </StyledContainer13>
+                    <StyledContainer14>
+                      <StyledPrimitivebutton10 />
+                      <StyledText12>
+                        <Styled2301D>2301D</Styled2301D>
+                      </StyledText12>
+                      <StyledText13>
+                        <StyledCANCELADA01>CANCELADA</StyledCANCELADA01>
+                      </StyledText13>
+                    </StyledContainer14>
+                    <StyledContainer15>
+                      <StyledPrimitivebutton11 />
+                      <StyledText14>
+                        <Styled2315E>2315E</Styled2315E>
+                      </StyledText14>
+                      <StyledText15>
+                        <StyledINATIVA01>INATIVA</StyledINATIVA01>
+                      </StyledText15>
+                    </StyledContainer15>
+                    <StyledContainer16>
+                      <StyledPrimitivebutton12 />
+                      <StyledText16>
+                        <Styled2327F>2327F</Styled2327F>
+                      </StyledText16>
+                      <StyledText17>
+                        <StyledABERTA02>ABERTA</StyledABERTA02>
+                      </StyledText17>
+                    </StyledContainer16>
+                    <StyledContainer17>
+                      <StyledPrimitivebutton13 />
+                      <StyledText18>
+                        <Styled2340G>2340G</Styled2340G>
+                      </StyledText18>
+                      <StyledText19>
+                        <StyledFECHADAEEMEXECUO02>FECHADA E EM EXECUÇÃO</StyledFECHADAEEMEXECUO02>
+                      </StyledText19>
+                    </StyledContainer17>
+                  </StyledContainer07>
+                </StyledContainer05>
+                <StyledContainer18>
+                  <StyledContainer19>
+                    <StyledContainer20>
+                      <StyledHeading301>
+                        <StyledDetalhesdaRota>Detalhes da Rota</StyledDetalhesdaRota>
+                      </StyledHeading301>
+                      <StyledHeading201>
+                        <Styled2254BF>2254B F</Styled2254BF>
+                      </StyledHeading201>
+                    </StyledContainer20>
+                    <StyledButton01>
+                      <StyledInutilizarRota>Inutilizar Rota</StyledInutilizarRota>
+                    </StyledButton01>
+                  </StyledContainer19>
+                  <StyledContainer21>
+                    <StyledContainer22>
+                      <StyledParagraph>
+                        <StyledDatadeCadastro>Data de Cadastro</StyledDatadeCadastro>
+                      </StyledParagraph>
+                      <StyledParagraph01>
+                        <Styled05112024165313>05/11/2024 16:53:13</Styled05112024165313>
+                      </StyledParagraph01>
+                    </StyledContainer22>
+                    <StyledContainer23>
+                      <StyledParagraph02>
+                        <StyledInciodeVigncia>Início de Vigência</StyledInciodeVigncia>
+                      </StyledParagraph02>
+                      <StyledParagraph03>
+                        <Styled06112024>06/11/2024</Styled06112024>
+                      </StyledParagraph03>
+                    </StyledContainer23>
+                    <StyledContainer24>
+                      <StyledParagraph04>
+                        <StyledFimdeVigncia>Fim de Vigência:</StyledFimdeVigncia>
+                      </StyledParagraph04>
+                      <StyledParagraph05>
+                        <StyledP>-</StyledP>
+                      </StyledParagraph05>
+                    </StyledContainer24>
+                  </StyledContainer21>
+                </StyledContainer18>
+              </StyledContainer04>
+              <StyledContainer25>
+                <StyledContainer26>
+                  <StyledHeading302>
+                    <StyledHistricoAtual>Histórico Atual</StyledHistricoAtual>
+                  </StyledHeading302>
+                  <StyledContainer27>
+                    <StyledContainer28>
+                      <StyledParagraph06>
+                        <StyledHorriodeSada>Horário de Saída</StyledHorriodeSada>
+                      </StyledParagraph06>
+                      <StyledParagraph07>
+                        <Styled0357>03:57</Styled0357>
+                      </StyledParagraph07>
+                    </StyledContainer28>
+                    <StyledContainer29>
+                      <StyledParagraph08>
+                        <StyledHorriodeChegada>Horário de Chegada</StyledHorriodeChegada>
+                      </StyledParagraph08>
+                      <StyledParagraph09>
+                        <Styled0224>02:24</Styled0224>
+                      </StyledParagraph09>
+                    </StyledContainer29>
+                    <StyledContainer30>
+                      <StyledParagraph10>
+                        <StyledDiaRota>Dia Rota</StyledDiaRota>
+                      </StyledParagraph10>
+                      <StyledParagraph11>
+                        <StyledMPAR>ÍMPAR</StyledMPAR>
+                      </StyledParagraph11>
+                    </StyledContainer30>
+                    <StyledContainer31>
+                      <StyledParagraph12>
+                        <StyledVolumeTotal>Volume Total</StyledVolumeTotal>
+                      </StyledParagraph12>
+                      <StyledParagraph13>
+                        <Styled26807>26807</Styled26807>
+                      </StyledParagraph13>
+                    </StyledContainer31>
+                    <StyledContainer32>
+                      <StyledParagraph14>
+                        <StyledDistnciatotaldaRota>Distância total da Rota</StyledDistnciatotaldaRota>
+                      </StyledParagraph14>
+                      <StyledParagraph15>
+                        <Styled402>402</Styled402>
+                      </StyledParagraph15>
+                    </StyledContainer32>
+                    <StyledContainer33>
+                      <StyledParagraph16>
+                        <StyledRL>R$/L</StyledRL>
+                      </StyledParagraph16>
+                      <StyledParagraph17>
+                        <Styled01113>0,1113</Styled01113>
+                      </StyledParagraph17>
+                    </StyledContainer33>
+                    <StyledContainer34>
+                      <StyledParagraph18>
+                        <StyledLtsKm>Lts/Km</StyledLtsKm>
+                      </StyledParagraph18>
+                      <StyledParagraph19>
+                        <Styled6668>66,68</Styled6668>
+                      </StyledParagraph19>
+                    </StyledContainer34>
+                    <StyledContainer35>
+                      <StyledParagraph20>
+                        <StyledCustototaldaRota>Custo total da Rota</StyledCustototaldaRota>
+                      </StyledParagraph20>
+                      <StyledParagraph21>
+                        <Styled298387>2983,87</Styled298387>
+                      </StyledParagraph21>
+                    </StyledContainer35>
+                  </StyledContainer27>
+                </StyledContainer26>
+                <StyledContainer36>
+                  <StyledHeading303>
+                    <StyledPontosdeParada>Pontos de Parada</StyledPontosdeParada>
+                  </StyledHeading303>
+                  <StyledTable>
+                    <StyledTableHeader>
+                      <StyledTableRow>
+                        <StyledHeaderCell>
+                          <StyledIdentificador>Identificador</StyledIdentificador>
+                        </StyledHeaderCell>
+                        <StyledHeaderCell01>
+                          <StyledNomedaParadaProdutor>Nome da Parada / Produtor</StyledNomedaParadaProdutor>
+                        </StyledHeaderCell01>
+                        <StyledHeaderCell02>
+                          <StyledVol>Vol.</StyledVol>
+                        </StyledHeaderCell02>
+                        <StyledHeaderCell03>
+                          <StyledKm>Km</StyledKm>
+                        </StyledHeaderCell03>
+                        <StyledHeaderCell04>
+                          <StyledAtividade>Atividade</StyledAtividade>
+                        </StyledHeaderCell04>
+                      </StyledTableRow>
+                    </StyledTableHeader>
+                    <StyledTableBody>
+                      <StyledTableRow01>
+                        <StyledTableCell>
+                          <StyledContainer37>
+                            <StyledContainer38>
+                              <StyledText20>
+                                <Styled1>1</Styled1>
+                              </StyledText20>
+                            </StyledContainer38>
+                            <StyledText21>
+                              <StyledJ995>J995</StyledJ995>
+                            </StyledText21>
+                          </StyledContainer37>
+                        </StyledTableCell>
+                        <StyledTableCell01>
+                          <StyledContainer39>
+                            <StyledIcon04>
+                              <StyledVector04 />
+                              <StyledVector05 />
+                            </StyledIcon04>
+                            <StyledText22>
+                              <StyledJ0950024GARAGEMVIA>J095_0024_GARAGEM_VIA</StyledJ0950024GARAGEMVIA>
+                            </StyledText22>
+                          </StyledContainer39>
+                        </StyledTableCell01>
+                        <StyledTableCell02>
+                          <Styled0>0</Styled0>
+                        </StyledTableCell02>
+                        <StyledTableCell03>
+                          <Styled001>0</Styled001>
+                        </StyledTableCell03>
+                        <StyledTableCell04>
+                          <StyledCOLETA>COLETA</StyledCOLETA>
+                        </StyledTableCell04>
+                      </StyledTableRow01>
+                      <StyledTableRow02>
+                        <StyledTableCell05>
+                          <StyledContainer40>
+                            <StyledContainer41>
+                              <StyledText23>
+                                <Styled2>2</Styled2>
+                              </StyledText23>
+                            </StyledContainer41>
+                            <StyledText24>
+                              <StyledJ531>J531</StyledJ531>
+                            </StyledText24>
+                          </StyledContainer40>
+                        </StyledTableCell05>
+                        <StyledTableCell06>
+                          <StyledContainer42>
+                            <StyledIcon05>
+                              <StyledVector06 />
+                              <StyledVector07 />
+                            </StyledIcon05>
+                            <StyledText25>
+                              <StyledJ5310077MEDEIROS>J531_0077_MEDEIROS</StyledJ5310077MEDEIROS>
+                            </StyledText25>
+                          </StyledContainer42>
+                        </StyledTableCell06>
+                        <StyledTableCell07>
+                          <Styled1730>1730</Styled1730>
+                        </StyledTableCell07>
+                        <StyledTableCell08>
+                          <Styled101>1</Styled101>
+                        </StyledTableCell08>
+                        <StyledTableCell09>
+                          <StyledDESENGATE>DESENGATE</StyledDESENGATE>
+                        </StyledTableCell09>
+                      </StyledTableRow02>
+                      <StyledTableRow03>
+                        <StyledTableCell10>
+                          <StyledContainer43>
+                            <StyledContainer44>
+                              <StyledText26>
+                                <Styled3>3</Styled3>
+                              </StyledText26>
+                            </StyledContainer44>
+                            <StyledText27>
+                              <Styled223500560>223500560</Styled223500560>
+                            </StyledText27>
+                          </StyledContainer43>
+                        </StyledTableCell10>
+                        <StyledTableCell11>
+                          <StyledContainer45>
+                            <StyledIcon06>
+                              <StyledVector08 />
+                              <StyledVector09 />
+                            </StyledIcon06>
+                            <StyledText28>
+                              <StyledJULIOSERGIODEVASCONCELOS>JULIO SERGIO DE VASCONCELOS</StyledJULIOSERGIODEVASCONCELOS>
+                            </StyledText28>
+                          </StyledContainer45>
+                        </StyledTableCell11>
+                        <StyledTableCell12>
+                          <Styled10>10</Styled10>
+                        </StyledTableCell12>
+                        <StyledTableCell13>
+                          <Styled25>25</Styled25>
+                        </StyledTableCell13>
+                        <StyledTableCell14>
+                          <StyledESPERA>ESPERA</StyledESPERA>
+                        </StyledTableCell14>
+                      </StyledTableRow03>
+                      <StyledTableRow04>
+                        <StyledTableCell15>
+                          <StyledContainer46>
+                            <StyledContainer47>
+                              <StyledText29>
+                                <Styled4>4</Styled4>
+                              </StyledText29>
+                            </StyledContainer47>
+                            <StyledText30>
+                              <Styled223500941>223500941</Styled223500941>
+                            </StyledText30>
+                          </StyledContainer46>
+                        </StyledTableCell15>
+                        <StyledTableCell16>
+                          <StyledContainer48>
+                            <StyledIcon07>
+                              <StyledVector10 />
+                              <StyledVector11 />
+                            </StyledIcon07>
+                            <StyledText31>
+                              <StyledDALTONCAMPOSABREU>DALTON CAMPOS ABREU</StyledDALTONCAMPOSABREU>
+                            </StyledText31>
+                          </StyledContainer48>
+                        </StyledTableCell16>
+                        <StyledTableCell17>
+                          <Styled6500>6500</Styled6500>
+                        </StyledTableCell17>
+                        <StyledTableCell18>
+                          <Styled26>26</Styled26>
+                        </StyledTableCell18>
+                        <StyledTableCell19>
+                          <StyledCOLETA01>COLETA</StyledCOLETA01>
+                        </StyledTableCell19>
+                      </StyledTableRow04>
+                      <StyledTableRow05>
+                        <StyledTableCell20>
+                          <StyledContainer49>
+                            <StyledContainer50>
+                              <StyledText32>
+                                <Styled5>5</Styled5>
+                              </StyledText32>
+                            </StyledContainer50>
+                            <StyledText33>
+                              <Styled223501766>223501766</Styled223501766>
+                            </StyledText33>
+                          </StyledContainer49>
+                        </StyledTableCell20>
+                        <StyledTableCell21>
+                          <StyledContainer51>
+                            <StyledIcon08>
+                              <StyledVector12 />
+                              <StyledVector13 />
+                            </StyledIcon08>
+                            <StyledText34>
+                              <StyledIRILDAVALADARESDEABREU>IRILDA VALADARES DE ABREU</StyledIRILDAVALADARESDEABREU>
+                            </StyledText34>
+                          </StyledContainer51>
+                        </StyledTableCell21>
+                        <StyledTableCell22>
+                          <Styled3379>3379</Styled3379>
+                        </StyledTableCell22>
+                        <StyledTableCell23>
+                          <Styled37>37</Styled37>
+                        </StyledTableCell23>
+                        <StyledTableCell24>
+                          <StyledCOLETA02>COLETA</StyledCOLETA02>
+                        </StyledTableCell24>
+                      </StyledTableRow05>
+                      <StyledTableRow06>
+                        <StyledTableCell25>
+                          <StyledContainer52>
+                            <StyledContainer53>
+                              <StyledText35>
+                                <Styled6>6</Styled6>
+                              </StyledText35>
+                            </StyledContainer53>
+                            <StyledText36>
+                              <Styled223502209>223502209</Styled223502209>
+                            </StyledText36>
+                          </StyledContainer52>
+                        </StyledTableCell25>
+                        <StyledTableCell26>
+                          <StyledContainer54>
+                            <StyledIcon09>
+                              <StyledVector14 />
+                              <StyledVector15 />
+                            </StyledIcon09>
+                            <StyledText37>
+                              <StyledJORDANACRISTINACHAVES>JORDANA CRISTINA CHAVES</StyledJORDANACRISTINACHAVES>
+                            </StyledText37>
+                          </StyledContainer54>
+                        </StyledTableCell26>
+                        <StyledTableCell27>
+                          <Styled002>0</Styled002>
+                        </StyledTableCell27>
+                        <StyledTableCell28>
+                          <Styled52>52</Styled52>
+                        </StyledTableCell28>
+                        <StyledTableCell29>
+                          <StyledTRANSVASO>TRANSVASO</StyledTRANSVASO>
+                        </StyledTableCell29>
+                      </StyledTableRow06>
+                      <StyledTableRow07>
+                        <StyledTableCell30>
+                          <StyledContainer55>
+                            <StyledContainer56>
+                              <StyledText38>
+                                <Styled7>7</Styled7>
+                              </StyledText38>
+                            </StyledContainer56>
+                            <StyledText39>
+                              <Styled223501680>223501680</Styled223501680>
+                            </StyledText39>
+                          </StyledContainer55>
+                        </StyledTableCell30>
+                        <StyledTableCell31>
+                          <StyledContainer57>
+                            <StyledIcon10>
+                              <StyledVector16 />
+                              <StyledVector17 />
+                            </StyledIcon10>
+                            <StyledText40>
+                              <StyledMUCIOJOSEMACIEL>MUCIO JOSE MACIEL</StyledMUCIOJOSEMACIEL>
+                            </StyledText40>
+                          </StyledContainer57>
+                        </StyledTableCell31>
+                        <StyledTableCell32>
+                          <Styled200>200</Styled200>
+                        </StyledTableCell32>
+                        <StyledTableCell33>
+                          <Styled78>78</Styled78>
+                        </StyledTableCell33>
+                        <StyledTableCell34>
+                          <StyledCOLETA03>COLETA</StyledCOLETA03>
+                        </StyledTableCell34>
+                      </StyledTableRow07>
+                      <StyledTableRow08>
+                        <StyledTableCell35>
+                          <StyledContainer58>
+                            <StyledContainer59>
+                              <StyledText41>
+                                <Styled8>8</Styled8>
+                              </StyledText41>
+                            </StyledContainer59>
+                            <StyledText42>
+                              <Styled223502017>223502017</Styled223502017>
+                            </StyledText42>
+                          </StyledContainer58>
+                        </StyledTableCell35>
+                        <StyledTableCell36>
+                          <StyledContainer60>
+                            <StyledIcon11>
+                              <StyledVector18 />
+                              <StyledVector19 />
+                            </StyledIcon11>
+                            <StyledText43>
+                              <StyledMAURICIOWMACIELEIRMAOS>MAURICIO W MACIEL E IRMAOS</StyledMAURICIOWMACIELEIRMAOS>
+                            </StyledText43>
+                          </StyledContainer60>
+                        </StyledTableCell36>
+                        <StyledTableCell37>
+                          <Styled5000>5000</Styled5000>
+                        </StyledTableCell37>
+                        <StyledTableCell38>
+                          <Styled84>84</Styled84>
+                        </StyledTableCell38>
+                        <StyledTableCell39>
+                          <StyledPAUSA>PAUSA</StyledPAUSA>
+                        </StyledTableCell39>
+                      </StyledTableRow08>
+                    </StyledTableBody>
+                  </StyledTable>
+                </StyledContainer36>
+              </StyledContainer25>
+            </StyledFilterSection01>
+          </StyledPrimitivediv>
+        </StyledFilterSection>
+      </StyledMainContent>
+      <StyledNavbar>
+        <StyledContainer61>
+          <StyledIcon12 />
+          <StyledHeading1>
+            <StyledCCPRCOONECTA>CCPR COONECTA</StyledCCPRCOONECTA>
+          </StyledHeading1>
+        </StyledContainer61>
+        <StyledContainer62>
+          <StyledText44>
+            <StyledJooSilva>João Silva</StyledJooSilva>
+          </StyledText44>
+          <StyledIcon13>
+            <StyledVector23 />
+            <StyledVector25 />
+          </StyledIcon13>
+        </StyledContainer62>
+      </StyledNavbar>
+    </StyledRotasvisualizar>
+  );
+};
