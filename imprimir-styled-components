@@ -1,0 +1,1613 @@
+import React from "react";
+import styled from "styled-components";
+
+const StyledGestoderotasspan = styled.span`
+  color: #04AF9E;
+  font-size: 36px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 40px;
+  word-wrap: break-word;
+`;
+
+const Styled1045postoguanhesspan = styled.span`
+  color: #0A0A0A;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector = styled.div`
+  width: 8px;
+  height: 4px;
+  left: 4px;
+  top: 6px;
+  position: absolute;
+  outline: 1.33px #717182 solid;
+  outline-offset: -0.67px;
+`;
+
+const Styled08102025span = styled.span`
+  color: #717182;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledVector01 = styled.div`
+  width: 8px;
+  height: 4px;
+  left: 4px;
+  top: 6px;
+  position: absolute;
+  outline: 1.33px #717182 solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVisualizarspan = styled.span`
+  color: #6A7282;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledImprimirspan = styled.span`
+  color: #04AF9E;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledRotasspan = styled.span`
+  color: #04AF9E;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledVector02 = styled.div`
+  width: 13.33px;
+  height: 12.67px;
+  left: 1.33px;
+  top: 2px;
+  position: absolute;
+  outline: 1.33px #04AF9E solid;
+  outline-offset: -0.67px;
+`;
+
+const StyledVector03 = styled.div`
+  width: 9.33px;
+  height: 6.42px;
+  left: 2.33px;
+  top: 3.50px;
+  position: absolute;
+  outline: 1.17px white solid;
+  outline-offset: -0.58px;
+`;
+
+const Styled2254bspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledAbertaspan = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton05 = styled.button`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const Styled2304bspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledFechadaeemexecuospan = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledVector04 = styled.div`
+  width: 9.33px;
+  height: 6.42px;
+  left: 2.33px;
+  top: 3.50px;
+  position: absolute;
+  outline: 1.17px white solid;
+  outline-offset: -0.58px;
+`;
+
+const Styled2258bspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledCanceladaspan = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton07 = styled.button`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const Styled2254b01span = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledInativaspan = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledVector05 = styled.div`
+  width: 9.33px;
+  height: 6.42px;
+  left: 2.33px;
+  top: 3.50px;
+  position: absolute;
+  outline: 1.17px white solid;
+  outline-offset: -0.58px;
+`;
+
+const Styled2267cspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledAberta01span = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton09 = styled.button`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const Styled2289aspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledFechadaeemexecuo01span = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton10 = styled.button`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const Styled2301dspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledCancelada01span = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton11 = styled.button`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const Styled2315espan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledInativa01span = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton12 = styled.button`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const Styled2327fspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledAberta02span = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledPrimitivebutton13 = styled.button`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  background: #F3F3F5;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px rgba(0, 0, 0, 0.10) solid;
+`;
+
+const Styled2340gspan = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledFechadaeemexecuo02span = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledResumodaimpressospan = styled.span`
+  color: #04AF9E;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledRotasselecionadasparaimpressospan = styled.span`
+  color: #4A5565;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const Styled2254b02span = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledAberta03span = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const Styled2258b01span = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledCancelada02span = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const Styled2267c01span = styled.span`
+  color: #0A0A0A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+`;
+
+const StyledAberta04span = styled.span`
+  color: white;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+`;
+
+const StyledConfirmarimpresso3rotasspan = styled.span`
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
+`;
+
+const StyledCcprcoonectaspan = styled.span`
+  color: white;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 28px;
+  word-wrap: break-word;
+`;
+
+const StyledJoosilvaspan = styled.span`
+  color: white;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 28px;
+  word-wrap: break-word;
+`;
+
+const StyledVector09 = styled.div`
+  width: 5px;
+  height: 10px;
+  left: 16px;
+  top: 7px;
+  position: absolute;
+  outline: 2px white solid;
+  outline-offset: -1px;
+`;
+
+const StyledVector11 = styled.div`
+  width: 6px;
+  height: 18px;
+  left: 3px;
+  top: 3px;
+  position: absolute;
+  outline: 2px white solid;
+  outline-offset: -1px;
+`;
+
+const StyledHeading2 = styled.div`
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+`;
+
+const StyledPrimitivespan = styled.div`
+  width: 162.25px;
+  height: 20px;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledPrimitivespan01 = styled.div`
+  width: 71.30px;
+  height: 20px;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+`;
+
+const StyledPrimitivebutton02 = styled.button`
+  flex: 1 1 0;
+  height: 41px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  outline: 1px rgba(0, 0, 0, 0) solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  display: flex;
+`;
+
+const StyledPrimitivebutton03 = styled.button`
+  flex: 1 1 0;
+  height: 41px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: white;
+  outline: 1px rgba(0, 0, 0, 0) solid;
+  outline-offset: -1px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  display: flex;
+`;
+
+const StyledHeading3 = styled.div`
+  width: 41.34px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText = styled.div`
+  width: 46.48px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText01 = styled.div`
+  width: 58.52px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #04AF9E;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText02 = styled.div`
+  width: 46.48px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText03 = styled.div`
+  width: 162.92px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #018670;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText04 = styled.div`
+  width: 46.48px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText05 = styled.div`
+  width: 85.09px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #FB2C36;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText06 = styled.div`
+  width: 46.48px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText07 = styled.div`
+  width: 61.14px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #99A1AF;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText08 = styled.div`
+  width: 46.83px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText09 = styled.div`
+  width: 58.52px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #04AF9E;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText10 = styled.div`
+  width: 46.98px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText11 = styled.div`
+  width: 162.92px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #018670;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText12 = styled.div`
+  width: 46.83px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText13 = styled.div`
+  width: 85.09px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #FB2C36;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText14 = styled.div`
+  width: 45.42px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText15 = styled.div`
+  width: 61.14px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #99A1AF;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText16 = styled.div`
+  width: 45.19px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText17 = styled.div`
+  width: 58.52px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #04AF9E;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText18 = styled.div`
+  width: 47.28px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText19 = styled.div`
+  width: 162.92px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #018670;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledHeading301 = styled.div`
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledParagraph = styled.div`
+  width: 702.48px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledText20 = styled.div`
+  width: 46.48px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText21 = styled.div`
+  width: 58.52px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #04AF9E;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText22 = styled.div`
+  width: 46.48px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText23 = styled.div`
+  width: 85.09px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #FB2C36;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledText24 = styled.div`
+  width: 46.83px;
+  height: 24px;
+  position: relative;
+`;
+
+const StyledText25 = styled.div`
+  width: 58.52px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #04AF9E;
+  border-radius: 4px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+`;
+
+const StyledButton01 = styled.button`
+  width: 221.27px;
+  height: 36px;
+  left: 0px;
+  top: 228px;
+  position: absolute;
+  background: #04AF9E;
+  border-radius: 8px;
+`;
+
+const StyledHeading1 = styled.div`
+  flex: 1 1 0;
+  height: 28px;
+  position: relative;
+`;
+
+const StyledText26 = styled.div`
+  flex: 1 1 0;
+  height: 28px;
+  position: relative;
+`;
+
+const StyledIcon = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  opacity: 0.50;
+  overflow: hidden;
+`;
+
+const StyledIcon01 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  opacity: 0.50;
+  overflow: hidden;
+`;
+
+const StyledIcon02 = styled.div`
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon03 = styled.div`
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon04 = styled.div`
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon05 = styled.div`
+  width: 14px;
+  height: 14px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon06 = styled.div`
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledIcon07 = styled.div`
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+`;
+
+const StyledContainer = styled.div`
+  width: 1609px;
+  height: 118px;
+  padding-top: 32px;
+  padding-left: 40px;
+  padding-right: 40px;
+  left: 0px;
+  top: 64px;
+  position: absolute;
+  background: #F5F5F5;
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.10);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledTabList = styled.div`
+  width: 1529px;
+  height: 43px;
+  border-bottom: 1px #E5E7EB solid;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledContainer08 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  border-radius: 4px;
+  outline: 1px #E5E7EB solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer10 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  border-radius: 4px;
+  outline: 1px #E5E7EB solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer12 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  border-radius: 4px;
+  outline: 1px #E5E7EB solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer13 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  border-radius: 4px;
+  outline: 1px #E5E7EB solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer14 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  border-radius: 4px;
+  outline: 1px #E5E7EB solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer15 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  border-radius: 4px;
+  outline: 1px #E5E7EB solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer16 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  border-radius: 4px;
+  outline: 1px #E5E7EB solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer19 = styled.div`
+  width: 702.48px;
+  height: 48px;
+  padding-left: 12px;
+  padding-right: 12px;
+  left: 0px;
+  top: 32px;
+  position: absolute;
+  background: #F9FAFB;
+  border-radius: 4px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledContainer20 = styled.div`
+  width: 702.48px;
+  height: 48px;
+  padding-left: 12px;
+  padding-right: 12px;
+  left: 0px;
+  top: 92px;
+  position: absolute;
+  background: #F9FAFB;
+  border-radius: 4px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledContainer21 = styled.div`
+  width: 702.48px;
+  height: 48px;
+  padding-left: 12px;
+  padding-right: 12px;
+  left: 0px;
+  top: 152px;
+  position: absolute;
+  background: #F9FAFB;
+  border-radius: 4px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivebutton = styled.button`
+  align-self: stretch;
+  height: 36px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: white;
+  border-radius: 4px;
+  outline: 1px #99A1AF solid;
+  outline-offset: -1px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivebutton01 = styled.button`
+  align-self: stretch;
+  height: 36px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: white;
+  border-radius: 4px;
+  outline: 1px #99A1AF solid;
+  outline-offset: -1px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledButton = styled.button`
+  width: 36px;
+  height: 32px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+`;
+
+const StyledPrimitivespan02 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivespan03 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivespan04 = styled.div`
+  align-self: stretch;
+  height: 14px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledContainer22 = styled.div`
+  width: 183.86px;
+  height: 28px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  display: flex;
+`;
+
+const StyledContainer23 = styled.div`
+  width: 123.19px;
+  height: 28px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  display: flex;
+`;
+
+const StyledContainer18 = styled.div`
+  align-self: stretch;
+  height: 264px;
+  position: relative;
+`;
+
+const StyledContainer02 = styled.div`
+  width: 756.50px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledContainer03 = styled.div`
+  width: 756.50px;
+  height: 36px;
+  left: 772.50px;
+  top: 0px;
+  position: absolute;
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledContainer05 = styled.div`
+  width: 750.52px;
+  height: 65px;
+  padding-left: 16px;
+  padding-right: 16px;
+  left: 1px;
+  top: 1px;
+  position: absolute;
+  border-bottom: 1px #E5E7EB solid;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledPrimitivebutton04 = styled.button`
+  width: 16px;
+  height: 16px;
+  padding: 1px;
+  background: #030213;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  outline: 1px #030213 solid;
+  outline-offset: -1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledPrimitivebutton06 = styled.button`
+  width: 16px;
+  height: 16px;
+  padding: 1px;
+  background: #030213;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  outline: 1px #030213 solid;
+  outline-offset: -1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledPrimitivebutton08 = styled.button`
+  width: 16px;
+  height: 16px;
+  padding: 1px;
+  background: #030213;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  outline: 1px #030213 solid;
+  outline-offset: -1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+`;
+
+const StyledNavbar = styled.div`
+  width: 1609px;
+  height: 64px;
+  padding-left: 24px;
+  padding-right: 24px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #04AF9E;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+`;
+
+const StyledContainer17 = styled.div`
+  width: 752.48px;
+  height: 354px;
+  padding-top: 25px;
+  padding-bottom: 1px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: white;
+  border-radius: 4px;
+  outline: 1px #D1D5DC solid;
+  outline-offset: -1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  display: inline-flex;
+`;
+
+const StyledContainer01 = styled.div`
+  align-self: stretch;
+  height: 36px;
+  position: relative;
+`;
+
+const StyledContainer07 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  background: #EFF6FF;
+  border-radius: 4px;
+  outline: 1px #04AF9E solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer09 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  background: #EFF6FF;
+  border-radius: 4px;
+  outline: 1px #04AF9E solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer11 = styled.div`
+  align-self: stretch;
+  height: 50px;
+  padding-left: 12px;
+  background: #EFF6FF;
+  border-radius: 4px;
+  outline: 1px #04AF9E solid;
+  outline-offset: -1px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  display: inline-flex;
+`;
+
+const StyledContainer06 = styled.div`
+  width: 718.52px;
+  height: 384px;
+  padding-right: 15px;
+  left: 17px;
+  top: 82px;
+  position: absolute;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledContainer04 = styled.div`
+  flex: 1 1 0;
+  height: 483px;
+  position: relative;
+  background: white;
+  border-radius: 4px;
+  outline: 1px #D1D5DC solid;
+  outline-offset: -1px;
+`;
+
+const StyledFilterSection01 = styled.div`
+  width: 1529px;
+  flex: 1 1 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+`;
+
+const StyledPrimitivediv = styled.div`
+  align-self: stretch;
+  height: 558px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+  display: flex;
+`;
+
+const StyledFilterSection = styled.div`
+  width: 1529px;
+  height: 618px;
+  left: 40px;
+  top: 222px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  display: inline-flex;
+`;
+
+const StyledMainContent = styled.div`
+  width: 1609px;
+  height: 944px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: white;
+`;
+
+const StyledRotasimprimir = styled.div`
+  width: 1609px;
+  height: 944px;
+  position: relative;
+  background: white;
+`;
+
+export const RotasImprimir = () => {
+  return (
+    <StyledRotasimprimir>
+      <StyledMainContent>
+        <StyledContainer>
+          <StyledHeading2>
+            <StyledGestodeRotas>Gestão de Rotas</StyledGestodeRotas>
+          </StyledHeading2>
+        </StyledContainer>
+        <StyledFilterSection>
+          <StyledContainer01>
+            <StyledContainer02>
+              <StyledPrimitivebutton>
+                <StyledPrimitivespan>
+                  <Styled1045POSTOGUANHES>1045 - POSTO GUANHÃES</Styled1045POSTOGUANHES>
+                </StyledPrimitivespan>
+                <StyledIcon>
+                  <StyledVector />
+                </StyledIcon>
+              </StyledPrimitivebutton>
+            </StyledContainer02>
+            <StyledContainer03>
+              <StyledPrimitivebutton01>
+                <StyledPrimitivespan01>
+                  <Styled08102025>08/10/2025</Styled08102025>
+                </StyledPrimitivespan01>
+                <StyledIcon01>
+                  <StyledVector01 />
+                </StyledIcon01>
+              </StyledPrimitivebutton01>
+            </StyledContainer03>
+          </StyledContainer01>
+          <StyledPrimitivediv>
+            <StyledTabList>
+              <StyledPrimitivebutton02>
+                <StyledVisualizar>Visualizar</StyledVisualizar>
+              </StyledPrimitivebutton02>
+              <StyledPrimitivebutton03>
+                <StyledImprimir>Imprimir</StyledImprimir>
+              </StyledPrimitivebutton03>
+            </StyledTabList>
+            <StyledFilterSection01>
+              <StyledContainer04>
+                <StyledContainer05>
+                  <StyledHeading3>
+                    <StyledRotas>Rotas</StyledRotas>
+                  </StyledHeading3>
+                  <StyledButton>
+                    <StyledIcon02>
+                      <StyledVector02 />
+                    </StyledIcon02>
+                  </StyledButton>
+                </StyledContainer05>
+                <StyledContainer06>
+                  <StyledContainer07>
+                    <StyledPrimitivebutton04>
+                      <StyledPrimitivespan02>
+                        <StyledIcon03>
+                          <StyledVector03 />
+                        </StyledIcon03>
+                      </StyledPrimitivespan02>
+                    </StyledPrimitivebutton04>
+                    <StyledText>
+                      <Styled2254B>2254B</Styled2254B>
+                    </StyledText>
+                    <StyledText01>
+                      <StyledABERTA>ABERTA</StyledABERTA>
+                    </StyledText01>
+                  </StyledContainer07>
+                  <StyledContainer08>
+                    <StyledPrimitivebutton05 />
+                    <StyledText02>
+                      <Styled2304B>2304B</Styled2304B>
+                    </StyledText02>
+                    <StyledText03>
+                      <StyledFECHADAEEMEXECUO>FECHADA E EM EXECUÇÃO</StyledFECHADAEEMEXECUO>
+                    </StyledText03>
+                  </StyledContainer08>
+                  <StyledContainer09>
+                    <StyledPrimitivebutton06>
+                      <StyledPrimitivespan03>
+                        <StyledIcon04>
+                          <StyledVector04 />
+                        </StyledIcon04>
+                      </StyledPrimitivespan03>
+                    </StyledPrimitivebutton06>
+                    <StyledText04>
+                      <Styled2258B>2258B</Styled2258B>
+                    </StyledText04>
+                    <StyledText05>
+                      <StyledCANCELADA>CANCELADA</StyledCANCELADA>
+                    </StyledText05>
+                  </StyledContainer09>
+                  <StyledContainer10>
+                    <StyledPrimitivebutton07 />
+                    <StyledText06>
+                      <Styled2254B01>2254B</Styled2254B01>
+                    </StyledText06>
+                    <StyledText07>
+                      <StyledINATIVA>INATIVA</StyledINATIVA>
+                    </StyledText07>
+                  </StyledContainer10>
+                  <StyledContainer11>
+                    <StyledPrimitivebutton08>
+                      <StyledPrimitivespan04>
+                        <StyledIcon05>
+                          <StyledVector05 />
+                        </StyledIcon05>
+                      </StyledPrimitivespan04>
+                    </StyledPrimitivebutton08>
+                    <StyledText08>
+                      <Styled2267C>2267C</Styled2267C>
+                    </StyledText08>
+                    <StyledText09>
+                      <StyledABERTA01>ABERTA</StyledABERTA01>
+                    </StyledText09>
+                  </StyledContainer11>
+                  <StyledContainer12>
+                    <StyledPrimitivebutton09 />
+                    <StyledText10>
+                      <Styled2289A>2289A</Styled2289A>
+                    </StyledText10>
+                    <StyledText11>
+                      <StyledFECHADAEEMEXECUO01>FECHADA E EM EXECUÇÃO</StyledFECHADAEEMEXECUO01>
+                    </StyledText11>
+                  </StyledContainer12>
+                  <StyledContainer13>
+                    <StyledPrimitivebutton10 />
+                    <StyledText12>
+                      <Styled2301D>2301D</Styled2301D>
+                    </StyledText12>
+                    <StyledText13>
+                      <StyledCANCELADA01>CANCELADA</StyledCANCELADA01>
+                    </StyledText13>
+                  </StyledContainer13>
+                  <StyledContainer14>
+                    <StyledPrimitivebutton11 />
+                    <StyledText14>
+                      <Styled2315E>2315E</Styled2315E>
+                    </StyledText14>
+                    <StyledText15>
+                      <StyledINATIVA01>INATIVA</StyledINATIVA01>
+                    </StyledText15>
+                  </StyledContainer14>
+                  <StyledContainer15>
+                    <StyledPrimitivebutton12 />
+                    <StyledText16>
+                      <Styled2327F>2327F</Styled2327F>
+                    </StyledText16>
+                    <StyledText17>
+                      <StyledABERTA02>ABERTA</StyledABERTA02>
+                    </StyledText17>
+                  </StyledContainer15>
+                  <StyledContainer16>
+                    <StyledPrimitivebutton13 />
+                    <StyledText18>
+                      <Styled2340G>2340G</Styled2340G>
+                    </StyledText18>
+                    <StyledText19>
+                      <StyledFECHADAEEMEXECUO02>FECHADA E EM EXECUÇÃO</StyledFECHADAEEMEXECUO02>
+                    </StyledText19>
+                  </StyledContainer16>
+                </StyledContainer06>
+              </StyledContainer04>
+              <StyledContainer17>
+                <StyledHeading301>
+                  <StyledResumodaImpresso>Resumo da Impressão</StyledResumodaImpresso>
+                </StyledHeading301>
+                <StyledContainer18>
+                  <StyledParagraph>
+                    <StyledRotasselecionadasparaimpresso>Rotas selecionadas para impressão:</StyledRotasselecionadasparaimpresso>
+                  </StyledParagraph>
+                  <StyledContainer19>
+                    <StyledText20>
+                      <Styled2254B02>2254B</Styled2254B02>
+                    </StyledText20>
+                    <StyledText21>
+                      <StyledABERTA03>ABERTA</StyledABERTA03>
+                    </StyledText21>
+                  </StyledContainer19>
+                  <StyledContainer20>
+                    <StyledText22>
+                      <Styled2258B01>2258B</Styled2258B01>
+                    </StyledText22>
+                    <StyledText23>
+                      <StyledCANCELADA02>CANCELADA</StyledCANCELADA02>
+                    </StyledText23>
+                  </StyledContainer20>
+                  <StyledContainer21>
+                    <StyledText24>
+                      <Styled2267C01>2267C</Styled2267C01>
+                    </StyledText24>
+                    <StyledText25>
+                      <StyledABERTA04>ABERTA</StyledABERTA04>
+                    </StyledText25>
+                  </StyledContainer21>
+                  <StyledButton01>
+                    <StyledConfirmarImpresso3rotas>Confirmar Impressão (3 rotas)</StyledConfirmarImpresso3rotas>
+                  </StyledButton01>
+                </StyledContainer18>
+              </StyledContainer17>
+            </StyledFilterSection01>
+          </StyledPrimitivediv>
+        </StyledFilterSection>
+      </StyledMainContent>
+      <StyledNavbar>
+        <StyledContainer22>
+          <StyledIcon06 />
+          <StyledHeading1>
+            <StyledCCPRCOONECTA>CCPR COONECTA</StyledCCPRCOONECTA>
+          </StyledHeading1>
+        </StyledContainer22>
+        <StyledContainer23>
+          <StyledText26>
+            <StyledJooSilva>João Silva</StyledJooSilva>
+          </StyledText26>
+          <StyledIcon07>
+            <StyledVector09 />
+            <StyledVector11 />
+          </StyledIcon07>
+        </StyledContainer23>
+      </StyledNavbar>
+    </StyledRotasimprimir>
+  );
+};
